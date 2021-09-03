@@ -113,26 +113,18 @@ body{
 }
 
 /*About*/
-#about{
-    position:absolute;
-    width:450px;
-    height:240px;
-    padding:10px;
+div{
+    display:inline;
+}
+#content1{
+    float:left;
+    width:50%;
+    background-color: aqua;
 }
 
-#about > div{
-    float:right;
-    margin:10px;
+#content2{
+    float:left;
+    width:50%;
+    background-color:blue;
 }
-#cat_about{
-    width:200px;
-    height:200px;
 
-}
-  
-#cat_des{
-    width:200px;
-    height:200px;
-    text-align:left;
-    right:250%;
-}
