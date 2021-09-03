@@ -24,14 +24,14 @@ body{
 
 #navbar::before{
     content: "";
-    background-color: rgb(240, 140, 10);
+    background-color:#fc8a0f;
     position: absolute;
     top:0px;
     left:0px;
     height: 100%;
     width:100%;
     z-index: -1;
-    /* opacity: 0.7; */
+    opacity: 0.1;
 }
 
 /* Navigation Bar: List Styling */
@@ -98,4 +98,16 @@ body{
 .text{
     position: absolute;
     right: 25px;
+}
+
+/*button*/
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
 }
