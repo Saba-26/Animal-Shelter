@@ -85,7 +85,7 @@ body{
     color:white;
     text-align: right;
     font-family: 'Lobster', cursive;
-    left:900px;
+    font-size: 350%;
 }
 
 #home p{
@@ -97,7 +97,7 @@ body{
 
 .text{
     position: absolute;
-    right: 25px;
+    right: 10%;
 }
 
 /*button*/
