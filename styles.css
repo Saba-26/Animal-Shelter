@@ -119,7 +119,9 @@ div{
 #content1{
     float:left;
     width:50%;
-    background-color: aqua;
+    display: flex;
+    
+    /* background-color: aqua; */
 }
 
 #content2{
