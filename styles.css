@@ -120,7 +120,7 @@ div{
     float:left;
     width:50%;
     display: flex;
-    
+    padding-right:2em;
     /* background-color: aqua; */
 }
 
