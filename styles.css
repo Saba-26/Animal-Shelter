@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin:0px;
 }
@@ -113,28 +117,35 @@ body{
 }
 
 /*About*/
-/* div{
-    display:inline;
-}
-#content1{
-   display:grid;
-   grid-template-columns: auto;
-}
-
-#content2{
-    display:grid;
-    grid-template-columns: auto;
-} */
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto;
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
     padding: 10px;
+    height: 300px; 
   }
-  .grid-item {
-    /* background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8); */
-    /* padding: 20px; */
-    font-size: 500px;
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
+.column>h2{
+    color:brown;
+    font-family: 'Abril Fatface', cursive;
+    font-weight:100;
+}
+
+.column>h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.about{
+    margin-left:150px;
+    padding-top: 20px;
+}
+
+
 
