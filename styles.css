@@ -95,7 +95,7 @@ html{
     color:white;
     text-align: right;
     font-family: 'Lobster';
-    font-weight:;
+    font-weight:500;
 }
 
 #home p{
@@ -149,11 +149,30 @@ html{
     padding-bottom: 20px;
 }
 
-/* Media Query */
-@media only screen and (max-width: 620px) {
-    #navbar, #home, .about {
-      width: 100%;
-    }
+/* Responisve */
+/* Navigation */
+#navbar {
+    flex-direction: column;
 }
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+
   
 
