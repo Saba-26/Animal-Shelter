@@ -76,7 +76,7 @@ html{
     padding:3px 200px;
     height: 550px;
     justify-content: center;
-    align-items: center;
+    align-items: right;
 }
 
 #home::before{ 
@@ -94,7 +94,8 @@ html{
 #home h1{
     color:white;
     text-align: right;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Lobster';
+    font-weight:;
 }
 
 #home p{
@@ -105,7 +106,7 @@ html{
 }
 
 /*button*/
-.btn{
+/* .btn{
     padding: 6px 20px;
     border: 2px solid white;
     background-color: rgb(201, 41, 41);
@@ -114,7 +115,7 @@ html{
     font-size: 1.8rem;
     border-radius: 10px;
     cursor:pointer;
-}
+} */
 
 /*About*/
 /* Create two equal columns that floats next to each other */
